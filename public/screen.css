@@ -1,8 +1,31 @@
 html {
   text-size-adjust: 100%;
+  height: 100%;
 }
 
 body {
+  background-color:blue;
+  background-image: image('');
+
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: cover;
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+ol {font-size: 18px;}
+p {
+  font-size: 24px;
+text-indent: 24px;
+}
+
+p.cursive-example {
+  font-size: 3em;
+  font-style: italic;
+}
+
+p.another-example {
+  color: green;
+  font-style: Times;
 }
