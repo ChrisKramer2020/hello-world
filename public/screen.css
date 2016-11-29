@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  background-color:blue;
-  background-image: image('');
+  background-color:aliceblue;
+  background-image: image url('https://blog-blogmediainc.netdna-ssl.com/upload/SportsBlogcom/2062748/0340053001431288846_filepicker.jpg');
 
 
   background-repeat: no-repeat;
@@ -23,9 +23,49 @@ text-indent: 24px;
 p.cursive-example {
   font-size: 3em;
   font-style: italic;
+  border-style: dotted;
+  border-width:20px;
+  border-color:yellow;
+  text-indent:62px;
+  text-decoration-style: wavy;
 }
 
 p.another-example {
   color: green;
   font-style: Times;
+}
+p.third-example {
+  font-size: 6em;
+  font-family: cursive;
+  border-style:dashed;
+  border-left-color:green;
+  border-right-color:yellow;
+}
+
+p.sweet {
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 8em;
+
+}
+
+img
+      { border:0.2em solid #fbe943;
+        box-shadow: 0.2em 0.2 em 0 #1e3896;
+}
+
+hr  {
+  border:0;
+  border-bottom:0.2em solid #fbe943;
+  box-shadow:0.1em 0.1em 0 #1e3896;
+}
+
+h3 {
+text-decoration: overline;
+  border: 1px solid white;
+}
+
+figure img {
+      width: 100%;
+      height: auto;
 }
